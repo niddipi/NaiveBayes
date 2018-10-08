@@ -90,7 +90,7 @@ list = [1,3,5,7,9]
 allot = 0
 predict=np.zeros((120,1),order='F')
 m = 0
-'''
+
 for k in list:
 	for fold in range(0,5):
 		k_test_images = train_images[allot:allot+120]
@@ -130,7 +130,7 @@ Average=np.zeros((5,1),order='F')
 list = [1,3,5,7,9]
 allot = 0
 predict=np.zeros((120,1),order='F')
-'''
+
 predict=np.zeros((len(test_labels),1),order='F')
 for i in range(0,len(test_images)):
 	NN_dist = 0
