@@ -1,1 +1,1 @@
-# KDTreeClassification
+# Naive Bayes Classification
